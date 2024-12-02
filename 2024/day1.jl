@@ -6,7 +6,7 @@ using CSV
 using DataFrames
 
 # Define the file path
-ts_file = "data/day1_input.txt"  # Replace this with your actual file path
+ts_file = "data/day1_input.txt"
 
 # Read the TSV file into a DataFrame
 df = CSV.read(ts_file, DataFrame; delim=' ', ignorerepeated=true, header=0)
